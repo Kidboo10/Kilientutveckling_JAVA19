@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulär</title>
+</head>
+<body>
+    <h1>Formulär</h1>
+    <form action="">
+        First name: <br>
+        <input type="text" maxlength="15" minlength="5" required><br>
+
+        Last name: <br>
+        <input type="text"><br>
+        <div>
+            <h3>Lösenord</h3>
+            Password: <br>
+            <input type="password" >
+        </div>
+        <div>
+            <h3>E-post</h3>
+            <input type="email" required>
+        </div>
+        <div>
+            <h3>Välj ett nummer</h3>
+            <input type="number" min="0" max="20" required>
+        </div>
+        <div>
+            Välj kön:
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">
+                Kvinna
+            </label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">
+                Man
+            </label>
+        </div>
+        <div>
+            vilken är din favorit pod-tjänster <br>
+            <input type="checkbox" name="Itunes" value="i"> Itunes <br>
+            <input type="checkbox" name="spotify" value="s"> spotify <br>
+        </div>
+        <div>
+            vad använder du fär att lyssna på musik <br>
+            <input type="text" >
+        </div>
+        <div>
+            <h3>Vad tycker du om HTML</h3>
+            <textarea placeholder="Skriv vad du tycker..." cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <h3>Ange din ålder</h3>
+            <input type="date">
+        </div>
+
+
+        <input type="submit" value="Send">
+
+    </form>
+</body>
+</html>
